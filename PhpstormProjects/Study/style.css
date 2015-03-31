@@ -270,14 +270,18 @@ ul.middle-list {
 
 
 .content{
-    height: 720px;
-    width: 1000px;
+    height: 770px;
+    width: 880px;
+    margin-left: 90px;
+
 }
 .content li{
     float: left;
     text-align: center;
     margin: 0 0 10px 0;
     padding: 0 20px 0 0;
+    height: 250px;
+
 }
 
 .footer-container{
@@ -392,7 +396,7 @@ ul.middle-list {
 }
 .account {
     width: 960px;
-    height: 923px;
+    height: 1052px;
 }
 #phone{
     float: left;
@@ -401,15 +405,15 @@ ul.middle-list {
 .my_account {
     float: left;
     background: none repeat scroll 0% 0% #F4F4F4;
-    width: 960px;
-    height: 380px;
+    width: 861px;
+    height: 509px;
     margin: 0px auto;
     padding: 50px;
 }
 .personal {
     background: #d5d5d5;
     width: 960px;
-    height: 908px;
+    height: 1036px;
 }
 #email {
 
@@ -432,7 +436,7 @@ label {
 }
 .css-label {
     float: right;
-    margin-right: 460px;
+    margin-right: 364px;
     width: 370px;
 }
 .agnes-universe {
