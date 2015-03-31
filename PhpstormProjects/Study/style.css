@@ -275,12 +275,18 @@ ul.middle-list {
     margin-left: 90px;
 
 }
-.content li{
+.content1{
+    height: 736px;
+    width: 880px;
+    margin-left: 90px;
+
+}
+.content1 li{
     float: left;
     text-align: center;
     margin: 0 0 10px 0;
     padding: 0 20px 0 0;
-    height: 520px;
+height: 227px;
 
 
 }
