@@ -396,21 +396,21 @@ ul.middle-list {
 }
 .account {
     width: 960px;
-    height: 1052px;
+    height: 905px;
 }
 
 .my_account {
     float: left;
     background: none repeat scroll 0% 0% #F4F4F4;
     width: 861px;
-    height: 341px;
+    height: 358px;
     margin: 0px auto;
     padding: 50px;
 }
 .personal {
     background: #d5d5d5;
     width: 960px;
-    height: 1036px;
+    height: 488px;
     float: left;
 }
 #email {
@@ -474,12 +474,20 @@ label {
 .art {
     width: 713px;
     height: 100px;
-
+margin-left: 100px;
 
 }
 .art .input-box {
-    width: 100px;
+    width: 200px;
     height: 30px;
     float: left;
+
+}
+.art label {
+    width: 170px;
+    float: left;
+}
+.phone {
+
 
 }
