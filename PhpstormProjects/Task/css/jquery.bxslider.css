@@ -94,6 +94,7 @@
 	-moz-border-radius: 5px;
 	-webkit-border-radius: 5px;
 	border-radius: 5px;
+    margin-top: -50px;
 }
 
 .bx-wrapper .bx-pager.bx-default-pager a:hover,
@@ -106,6 +107,7 @@
 .bx-wrapper .bx-prev {
 	left: 10px;
 	background: url(images/controls.png) no-repeat 0 -32px;
+
 }
 
 .bx-wrapper .bx-next {
@@ -130,6 +132,7 @@
 	height: 32px;
 	text-indent: -9999px;
 	z-index: 9999;
+
 }
 
 .bx-wrapper .bx-controls-direction a.disabled {
