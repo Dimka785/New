@@ -106,13 +106,17 @@
 
 .bx-wrapper .bx-prev {
 	left: 10px;
-	background: url(images/controls.png) no-repeat 0 -32px;
+	background: url(../images/slider_left.png) no-repeat 0 -32px;
+    width: 24px;
+    height: 35px;
 
 }
 
 .bx-wrapper .bx-next {
 	right: 10px;
-	background: url(images/controls.png) no-repeat -43px -32px;
+	background: url(../images/slider_right.png) no-repeat -43px -32px;
+    width: 23px;
+    height: 35px;
 }
 
 .bx-wrapper .bx-prev:hover {

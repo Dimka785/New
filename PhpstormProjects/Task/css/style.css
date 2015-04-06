@@ -100,7 +100,7 @@ padding-top: 50px;
     position: relative;
     width: 450px;
     height: 165px;
-    background: #ffffff;
+    background: #56ccc8;
     float: right;
     padding-top: 5px;
     z-index: 10;
@@ -262,11 +262,11 @@ width: 32px;
     float: left;
     background-color: #c5cdd1;
     width: 207px;
-    height: 267px;
+    height: 352px;
     margin-left: 19px;
 }
 .info li {
-    margin-top: 10px;
+    margin-top: 52px;
     margin-left: 15px;
 }
 .arrow {
@@ -291,6 +291,9 @@ width: 32px;
     margin-left: 15px;
     width: 159px;
     height: 25px;
+}
+.block2 span {
+    color: #56ccc8;
 }
 .tech {
     width: 200px;
