@@ -1,0 +1,319 @@
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, menu, nav, section {
+    display: block;
+}
+body {
+    line-height: 1;
+}
+ol, ul {
+    list-style: none;
+}
+blockquote, q {
+    quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+.wrapper{
+    width: 960px;
+    height: 2000px;
+    margin:0 auto;
+    font-family: 'Lato', sans-serif;
+}
+.left{
+    float:left;
+}
+.right{
+    float:right;
+}
+.clear{
+    clear: both;
+    overflow: hidden;
+    height: 0 !important;
+    wight: 0 !important;
+}
+
+.header{
+   width: 960px;
+    height: 500px;
+padding-top: 50px;
+    margin: 0 auto;
+}
+.header li {
+    float: left;
+    margin-left: 20px;
+
+
+}
+.top-header {
+    width: 900px;
+    height: 24px;
+    padding-top: 20px;
+    margin: 0 auto;
+}
+.left-header {
+    margin-left: -20px;
+}
+.right-header {
+    float: right;
+}
+.menu1{
+    background: #56ccc8;
+width: 32px;
+    height: 24px;
+    margin-top: 20px;
+}
+.btn{
+    background: url(../images/menu_icon.png)no-repeat;
+    width: 40px;
+    height: 24px;
+    display: block;
+    margin-left: 4px;
+    margin-top: -20px;
+
+}
+.block1 {
+    float: left;
+    background-color: #ffffff;
+    width: 207px;
+    height: 355px;
+    margin-top: 20px;
+    margin-left: 19px;
+}
+.block1 li {
+    margin-top: 10px;
+    margin-left: 15px;
+    width: 113px;
+}
+.second-menu {
+    float: left;
+    margin-left: -361px;
+    margin-top: 36px;
+    width: 207px;
+    height: 643px;
+}
+.info {
+    float: left;
+    background-color: #c5cdd1;
+    width: 207px;
+    height: 267px;
+    margin-left: 19px;
+}
+.info li {
+    margin-top: 10px;
+    margin-left: 15px;
+}
+.block2 {
+    float: left;
+    color: #ffffff;
+    width: 212px;
+    height: 623px;
+    margin-top: 55px;
+    margin-left: -134px;
+}
+.block2 li {
+    margin-top: 10px;
+    margin-left: 15px;
+    width: 159px;
+}
+.tech {
+    width: 200px;
+    height: 150px;
+    background-color: #152840;
+}
+.entertainment {
+    width: 200px;
+    height: 170px;
+    background-color: #263a54;
+}
+.business {
+    width: 200px;
+    height: 142px;
+    background-color: #152840;
+}
+.lifestyle {
+    width: 200px;
+    height: 161px;
+    background-color: #263a54;
+}
+.shared {
+    float: left;
+    background-color: #ffffff;
+    width: 200px;
+    height: 281px;
+    margin-top: 55px;
+    margin-left: 11px;
+}
+.shared li {
+    margin-top: 10px;
+
+}
+.facebook {
+    background-color: #4d6baa;
+    float: left;
+    width: 256px;
+    height: 135px;
+    margin-top: 32px;
+    margin-left: 11px;
+    color: #ffffff;
+}
+.facebook li {
+    margin-top: 26px;
+    width: 68px;
+    height: 23px;
+}
+.facebook img {
+    margin-left: 20px;
+    margin-top: 20px;
+}
+.twitter {
+    background-color: #4fc6f8;
+    float: left;
+    width: 256px;
+    height: 135px;
+    margin-top: 11px;
+    margin-left: 11px;
+    color: #ffffff;
+}
+.twitter img {
+    margin-left: 20px;
+    margin-top: 20px;
+}
+.twitter li {
+    margin-top: 26px;
+    width: 68px;
+    height: 23px;
+}
+.social {
+    background-color: #ffffff;
+    float: left;
+    width: 466px;
+    height: 160px;
+    margin-top: 11px;
+    margin-left: 11px;
+    color: #475055;
+}
+.social li {
+    margin-top: 20px;
+    width: 423px;
+    height: 23px;
+    text-align: center;
+}
+.social img {
+margin-top: 20px;
+    margin-left: 66px;
+}
+.newsletter {
+    background-color: #ffffff;
+    float: left;
+    width: 466px;
+    height: 160px;
+    margin-top: 11px;
+    margin-left: 11px;
+    color: #475055;
+}
+.newsletter li {
+    margin-top: 20px;
+    width: 423px;
+    height: 23px;
+    text-align: center;
+}
+.input-box {
+    float: left;
+    margin-left: 22px;
+    margin-top: 20px;
+}
+#email {
+    width: 307px;
+    height: 20px;
+}
+#sign-up {
+    width: 68px;
+    height: 26px;
+    background-color: #ea6060;
+}
+.content {
+    width: 960px;
+    height: 1000px;
+    padding-top: 50px;
+    margin-top: 118px;
+}
+.slider {
+    width: 888px;
+    height: 599px;
+    padding-top: 50px;
+    margin: 0 auto;
+}
+.best-story {
+    float: left;
+    width: 305px;
+    height: 300px;
+    background-color: #ffffff;
+    color: #000000;
+    margin-left: 30px;
+}
+#video-icon {
+    background-color: #ea6060;
+    width: 21px;
+    height: 15px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    padding-left: 10px;
+    margin-top: 30px;
+}
+.best-story li {
+    width: 223px;
+    height: 20px;
+    margin: 0 auto;
+}
+.like {
+    float: left;
+    width: 63px;
+    height: 300px;
+    background-color: #1f3045;
+    color: #ffffff;
+}
+.like li {
+    margin-top: 36px;
+    text-align: center;
+}
+.video {
+    float: left;
+    background: url("../images/video1.jpg");
+    width: 531px;
+    height: 300px;
+}
+.video li {
+    text-align: center;
+    margin-top: 114px;
+}
