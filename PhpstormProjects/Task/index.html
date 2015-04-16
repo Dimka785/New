@@ -4,7 +4,8 @@
     <meta charset="UTF-8">
     <title>Task</title>
     <link rel="stylesheet" href="css/style.css"/>
-    <link href="css/flick/jquery-ui-1.9.2.custom.css" rel="stylesheet">
+    <link href="css/flick/jquery-ui-1.9.2.custom.min.js" rel="stylesheet">
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.5/jquery.min.js"></script>
     <script src="js/jquery.js"></script>
     <script src="js/jquery-ui-1.9.2.custom.js"></script>
     <script src="js/scripts.js"></script>
@@ -195,19 +196,20 @@
                 <li><img src="images/slider/27_2208_oboi_lev_1920x1200.jpg" alt=""/></li>
             </ul>
         </div>
+        <div id="popupWrapper">
+            <div class="content">
+                <a href="javascript:void(0)" id="closeMe">X</a>
+                <p class="popupTitle"></p>
+                <p class="popupdata"></p>
+                <p class="fulltext"></p>
+            </div>
+        </div>
         <div class="best-story">
             <img src="images/video.png" alt="" id="video-icon"/>
-            <ul>
-                <li>Best story you have ever heard</li>
-                <li>24 minutes ago</li>
-                <li><div class="story">
-                    "You don't have to be French to enjoy a decent red wine," Charles Jousselin de Gruse used to tell his foreign guests whenever he entertained them in Paris. "But you do have to be French to recognize one," he would add with a laugh.
-
-                    After a lifetime in the French diplomatic corps, the Count de Gruse lived with his wife in an elegant townhouse on Quai Voltaire. He was a likeable man, cultivated of course, with a well-deserved reputation as a generous host and an amusing raconteur.
-
-                    This evening's guests were all European and all equally convinced that immigration was at the root of Europe's problems. Charles de Gruse said nothing. He had always concealed his contempt for such ideas. And, in any case, he had never much cared for these particular guests.
-                </div></li>
-            </ul>
+            <h1 class="title1">Best story u have ever heard</h1>
+            <p class="data1">24 min ago</p>
+            <p class="text1">One thing that's great about short stories is how quickly they can ruin your life. Maybe you start reading one over your lunch break and, if it's the right one, before that peanut butter cup you brought for dessert even has a chance to finish its melting shape-shift into some kind of sugary cement, the whole world has been destroyed around you and then rebuilt, and nothing is quite the same again.</p>
+            <a href="javascript:void(0)" class="click">read more</a>
         </div>
         <div class="like">
             <ul>
@@ -217,7 +219,7 @@
             </ul>
         </div>
         <div class="video">
-            <ul><li><img src="images/play_button.png" alt="" id="play-button"/></li></ul>
+            <ul><li><img src="images/play.png" alt="" id="play-button"/></li></ul>
         </div>
         <div class="share">
             <ul>
@@ -229,16 +231,64 @@
         </div>
         <div class="photo">
             <img src="images/photo.png" alt="" id="photo-icon"/>
-            <ul>
-                <li>Here's what instagram ads will look like</li>
-                <li>3 hours ago</li>
-            </ul>
+                <h1 class="title2">Here's what instagram ads will look like</h1>
+                <h1 class="data2">3 hours ago</h1>
+            <p class="text2">This happens whether you like it or not. Great stories practice this violent beauty on you in a variety of ways: some by making an absurd world familiar (or vice versa), some with a slow burn, some with a voice that colonizes your thoughts. Some do it quietly, almost without you even noticing, and some do it with high wire acts of imagination or intellect that make you into a breathless witness. </p>
+            <a href="javascript:void(0)" class="click1">read more</a>
         </div>
         <div class="capture">
 
         </div>
     </div>
-    <div class="footer"></div>
+    <div class="footer">
+        <div class="following">
+            <div class="following1">
+                <ul>
+                    <li><strong>Alex White</strong></li>
+                    <li>@alexwhite</li>
+                </ul>
+                <img src="images/following.png" alt=""/>
+            </div>
+            <div class="following2">
+                <ul>
+                    <li>Singolo is a free PSD template <br/>
+                        of a flat, single page website <br/>
+                        created by @psdchat</li>
+                    <li>2 hours ago</li>
+                </ul>
+            </div>
+            <div class="following3">
+                <ul>
+                    <li>Saturday Career workshops<br/>are back at ADC! See what high<br/>school students created this<br/>week: http://bit.com</li>
+                    <li>6 hours ago</li>
+                </ul>
+            </div>
+        </div>
+        <div class="date">
+            <p>Date: <input type="text" id="datepicker"></p>
+        </div>
+        <div class="stories">
+            <ul>
+                <li>VIEW</li>
+                <li>MORE</li>
+                <li>STORIES</li>
+            </ul>
+            <img src="images/arrow1.png" alt=""/>
+        </div>
+        <div class="capture2"></div>
+        <div class="slider2">
+
+        </div>
+        <div class="lorem">
+            <img src="images/article.png" id="article" alt=""/>
+            <ul>
+                <h1 class="title3">What is Lorem Ipsum?</h1>
+                <p class="text3">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+                <a href="javascript:void(0)" class="click2">read more</a>
+
+            </ul>
+        </div>
+    </div>
 </div>
 </body>
 </html>
