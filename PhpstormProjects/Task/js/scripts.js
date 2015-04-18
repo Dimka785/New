@@ -14,6 +14,18 @@ $(document).ready(function(){
             alert("Enter 6 characters!");
         }
     });
+    $('.facebook').hover(function(){
+        $('.facebook').css('background-color','black');
+    });
+    $('.facebook').mouseleave(function(){
+        $('.facebook').css('background-color','#4d6baa');
+    });
+    $('.twitter').hover(function(){
+        $('.twitter').animate({ opacity: '0.1'});
+    });
+    $('.twitter').mouseleave(function(){
+        $('.twitter').animate({ opacity: '1'});
+    });
     var cutfulltext = $('.text1').text()
     var cutfulltext1 = $('.text2').text()
     var cutfulltext2 = $('.text3').text()
@@ -56,6 +68,30 @@ $(document).ready(function(){
     });
 
     $(function() {
-        $( "#datepicker" ).datepicker();
+        $( "#datepicker" ).datepicker({
+            inline: true
+        });
+
     });
+    $('.video,.like').hover(function(){
+        $('.like').show();
+    });
+    $('.video,.like').mouseleave(function(){
+        $('.like').hide();
+    });
+    $('.video,#play-button').hover(function(){
+        $('#play-button').show();
+    });
+    $('.video,#play-button').mouseleave(function(){
+        $('#play-button').hide();
+    });
+    $( "#tabs" ).tabs();
 });
+
+
+
+
+
+
+
+
