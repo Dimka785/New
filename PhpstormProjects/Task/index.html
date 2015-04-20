@@ -297,26 +297,10 @@
         </div>
         <div class="ask">
             <h1>Ask a question</h1>
-            <ul class="form">
-                <li>
-                    <label for="email_address" class="required">Your name</label>
-                    <div class="input-box">
-                        <input type="text" name="email" id="email_address"  title="Email Address" class="email">
-                    </div>
-                </li>
-                <li>
-                    <label for="password" class="required">Email</label>
-                    <div class="input-box">
-                        <input type="text" name="email" id="email_address"  title="Email Address" class="email">
-                    </div>
-                </li>
-                <li>
-                    <label for="message" class="required">Your message</label>
-                    <div class="input-box">
-                        <input type="text" name="message" id="message" title="message" class="message"/>
-                    </div>
-                </li>
-            </ul>
+            <form action="1" method="post">
+                <input type='text' class='required' id="askname" placeholder="Your name"/>
+                <input type='text' class='validate' id="askmail" placeholder="Your email"/>
+                <textarea name="" id="message" cols="30" rows="10"></textarea>
             <div class="input-box">
                 <input type="submit" value="Submit" id="submit"/>
             </div>
